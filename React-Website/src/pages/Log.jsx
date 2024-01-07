@@ -42,7 +42,7 @@ const Login = () => {
         e.preventDefault();
         console.log(user);
     
-        const response = await fetch('https://mern-backend-avo4.onrender.com/mern/main/login', {
+        const response = await fetch('https://codingclubbackend.onrender.com/mern/main/login', {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

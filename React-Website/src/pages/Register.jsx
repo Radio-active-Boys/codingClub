@@ -96,9 +96,6 @@ const Register = () => {
         <>
         
             <section className="registration-container">
-                <div className="registration-image bg-primary text-light py-3">
-                    <img src="https://th.bing.com/th/id/R.d5cc2848b8023a04305f7f7879683c84?rik=BiRSY779oYSBaQ&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fh%2fG%2fX%2fd%2fN%2fM%2forange-button-register-here-hi.png&ehk=lSKi2qAC%2bl4d0xn%2biGPu8vndpeZu969cD69%2fPBPEzuk%3d&risl=&pid=ImgRaw&r=0" alt='Register here' />
-                </div>
                 <div className="registration-form">
                     <h1>Registration Form</h1>
                     <form onSubmit={handleSubmit} method="post">

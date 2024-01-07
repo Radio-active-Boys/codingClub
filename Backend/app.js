@@ -6,7 +6,7 @@ const router = require("./router/router.js");
 const bodyParser = require("body-parser");
 const cors = require('cors')
 const corsOptions = {
-    origin: 'file:///C:/Users/iitja/Downloads/CodingHackthon/Fill_the_void_hacks-main/Fill_the_void_hacks-main/fillthevoid%20hack/index.html',
+    origin: 'https://codingclub-bahk.onrender.com',
     methods: "GET,POST,DELETE,PUT,PATCH,HEAD",
     credentials: true,     
   };

@@ -12,11 +12,12 @@ const Navbar = () => {
           <NavLink to="/">My website</NavLink>
         </div>
         <nav>
-          <ul>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/work">Work</NavLink></li>             
+          <ul>           
             {isLoggedIn ? (
-              <><li><NavLink to="/logout">Logout</NavLink></li></>
+                        <>  
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/work">Work</NavLink></li>  
+                        <li><NavLink to="/logout">Logout</NavLink></li></>
             ) : (
               <>
                 <li><NavLink to="/register">Register</NavLink></li>

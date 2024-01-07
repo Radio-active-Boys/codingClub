@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const errorMiddleware = require("./validator/middleware/error-middleware.js");
 
 // setting connetion with route links
-app.use("/mern",router);
+app.use("/mern/main",router);
 // setting error middle ware
 app.use(errorMiddleware);
 

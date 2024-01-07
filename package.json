@@ -1,0 +1,16 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-Backend": "cd Backend && npm install",
+    "start-Backend" : "cd Backend && node app.js",
+    "install-React-Website": "cd React-Website && npm install",
+    "build-React-Website": "cd React-Website && npm run build",
+    "start-React-Website": "cd React-Website && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
